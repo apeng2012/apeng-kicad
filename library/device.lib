@@ -56,7 +56,7 @@ F1 "Crystal" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Crystal_
+ crystal_*
 $ENDFPLIST
 DRAW
 S -30 -60 30 60 0 1 0 N
@@ -75,7 +75,7 @@ F1 "Crystal_4p" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
- Crystal_
+ crystal_*
 $ENDFPLIST
 DRAW
 S -30 -60 30 60 0 1 0 N
