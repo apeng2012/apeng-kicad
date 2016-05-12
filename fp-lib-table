@@ -7,6 +7,7 @@
   (lib (name Crystals)(type KiCad)(uri ${KISYSMOD}\Crystals.pretty)(options "")(descr "The way you like them."))
   (lib (name Resistors_SMD)(type KiCad)(uri ${KISYSMOD}\Resistors_SMD.pretty)(options "")(descr "The way you like them."))
   (lib (name Resistors_ThroughHole)(type KiCad)(uri ${KISYSMOD}\Resistors_ThroughHole.pretty)(options "")(descr "The way you like them."))
+  (lib (name SO)(type KiCad)(uri ${KISYSMOD}\SO.pretty)(options "")(descr "The way you like them."))
   (lib (name Sockets_BGA)(type KiCad)(uri ${KISYSMOD}\Sockets_BGA.pretty)(options "")(descr "The way you like them."))
   (lib (name Special)(type KiCad)(uri ${KISYSMOD}\Special.pretty)(options "")(descr "The way you like them."))
 )
