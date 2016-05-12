@@ -10,4 +10,5 @@
   (lib (name SO)(type KiCad)(uri ${KISYSMOD}\SO.pretty)(options "")(descr "The way you like them."))
   (lib (name Sockets_BGA)(type KiCad)(uri ${KISYSMOD}\Sockets_BGA.pretty)(options "")(descr "The way you like them."))
   (lib (name Special)(type KiCad)(uri ${KISYSMOD}\Special.pretty)(options "")(descr "The way you like them."))
+  (lib (name Switch)(type KiCad)(uri ${KISYSMOD}\Switch.pretty)(options "")(descr "The way you like them."))
 )
