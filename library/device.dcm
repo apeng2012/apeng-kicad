@@ -12,6 +12,10 @@ $CMP MIC_MEMS_4P
 D knowles microphone
 $ENDCMP
 #
+$CMP MIC_MEMS_4P_A
+D knowles microphone
+$ENDCMP
+#
 $CMP R
 D Resistor
 $ENDCMP
