@@ -30,6 +30,7 @@ F1 "CONN_01X02" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
+ PH20_2*
  CONN_*2
  Pin_Header_Straight_1X02
  Pin_Header_Angled_1X02
