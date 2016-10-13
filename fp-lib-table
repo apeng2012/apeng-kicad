@@ -4,6 +4,7 @@
   (lib (name Capacitors_ThroughHole)(type KiCad)(uri ${KISYSMOD}\Capacitors_ThroughHole.pretty)(options "")(descr "The way you like them."))
   (lib (name Connect)(type KiCad)(uri ${KISYSMOD}\Connect.pretty)(options "")(descr "The way you like them."))
   (lib (name LEDs)(type KiCad)(uri ${KISYSMOD}\LEDs.pretty)(options "")(descr "The way you like them."))
+  (lib (name Inductor)(type KiCad)(uri ${KISYSMOD}\Inductor.pretty)(options "")(descr "The way you like them."))
   (lib (name QFN)(type KiCad)(uri ${KISYSMOD}\QFN.pretty)(options "")(descr "The way you like them."))
   (lib (name QFP)(type KiCad)(uri ${KISYSMOD}\QFP.pretty)(options "")(descr "The way you like them."))
   (lib (name Crystals)(type KiCad)(uri ${KISYSMOD}\Crystals.pretty)(options "")(descr "The way you like them."))
