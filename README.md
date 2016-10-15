@@ -13,4 +13,5 @@ apeng's kicad library
 3. 修改StepUp配置文件 `ksu-config.ini`：
  - prefix3d_1 = C:\PROJECTS\apeng-kicad\packages3d\ 
 4. 拷贝fp-lib-table文件到目录 `C:\Users\用户名\AppData\Roaming\kicad\` 或者建议采用创建链接mklink方式。
+ - mklink /H "C:\Users\用户名\AppData\Roaming\kicad\fp-lib-table" "C:\PROJECTS\apeng-kicad\fp-lib-table"
  
