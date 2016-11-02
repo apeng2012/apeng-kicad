@@ -97,6 +97,8 @@ F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  SMA
+ SOD-323
+ SOD-523
  Diode_*
  D-Pak_TO252AA
  *SingleDiode
