@@ -9,6 +9,7 @@
   (lib (name QFN)(type KiCad)(uri ${KISYSMOD}\QFN.pretty)(options "")(descr "The way you like them."))
   (lib (name QFP)(type KiCad)(uri ${KISYSMOD}\QFP.pretty)(options "")(descr "The way you like them."))
   (lib (name Crystals)(type KiCad)(uri ${KISYSMOD}\Crystals.pretty)(options "")(descr "The way you like them."))
+  (lib (name Pin_Header)(type KiCad)(uri ${KISYSMOD}\Pin_Header.pretty)(options "")(descr "The way you like them."))
   (lib (name Resistors_SMD)(type KiCad)(uri ${KISYSMOD}\Resistors_SMD.pretty)(options "")(descr "The way you like them."))
   (lib (name Resistors_ThroughHole)(type KiCad)(uri ${KISYSMOD}\Resistors_ThroughHole.pretty)(options "")(descr "The way you like them."))
   (lib (name SO)(type KiCad)(uri ${KISYSMOD}\SO.pretty)(options "")(descr "The way you like them."))
