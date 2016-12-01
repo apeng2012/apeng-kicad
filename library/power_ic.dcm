@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LTC3406
+D 1.5MHz, 600mA Synchronous Step-Down Regulator in ThinSOT
+$ENDCMP
+#
 $CMP PT4103
 D White LED Step-Up Converter
 $ENDCMP
