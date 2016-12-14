@@ -8,6 +8,10 @@ $CMP CP
 D Polarised capacitor
 $ENDCMP
 #
+$CMP Crystal_3p
+D muRata Ceramic Resonators
+$ENDCMP
+#
 $CMP MIC_MEMS_4P
 D knowles microphone
 $ENDCMP
