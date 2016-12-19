@@ -20,6 +20,10 @@ $CMP MIC_MEMS_4P_A
 D knowles microphone
 $ENDCMP
 #
+$CMP MIC_MP34DT01
+D ST MEMS audio sensor omnidirectional digital microphone
+$ENDCMP
+#
 $CMP R
 D Resistor
 $ENDCMP
