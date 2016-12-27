@@ -475,6 +475,7 @@ F2 "" 200 0 50 H V C CNN
 F3 "" 200 0 50 H V C CNN
 $FPLIST
  Measurement_Point_Round-SMD-Pad_Small
+ Measurement_Point_Round-TH_Small
 $ENDFPLIST
 DRAW
 C 0 130 30 0 1 0 N
