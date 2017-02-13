@@ -25,17 +25,24 @@ class KiCAD_PCB:
         with open(filename, 'r') as f:
             data = f.read()
 
+        cnt = len(coordinates)
         old_drawings = "(drawings %d)" % (drawing_num)
-        now_drawings = "(drawings %d)" % (drawing_num + len(coordinates))
+        now_drawings = "(drawings %d)" % (drawing_num + cnt + 1)
         data = data.replace(old_drawings, now_drawings)
         data = data.replace("\n)", "\n")
 
         for x,y in coordinates:
             data += "  (gr_circle(center {x} {y}) (end {xx} {y}) (layer F.Fab) (width 0.20066))\n".format(
                 x=x, y=y, xx=x+1)
-        data += ")"
+        data += \
+"""
+  (gr_text %s->%d (at 30 30) (layer F.Fab)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+)
+"""  %(mark_val, cnt)
 
-        writefilename = filename.split(".")[0] + mark_val +".kicad_pcb"
+        writefilename = filename.split(".")[0] + mark_val.replace(".", "_") +".kicad_pcb"
         with open(writefilename, 'w') as wf:
             wf.write(data)
 
