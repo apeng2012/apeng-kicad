@@ -5,7 +5,7 @@ apeng's kicad library
 1. 在官网库 [kicad-library](https://github.com/KiCad/kicad-library/) 中挑选自己常用的footprint组成。
 2. footprint对应的3D模型挑选自[kicad-3d-mcad-models](https://github.com/easyw/kicad-3d-mcad-models), 采用他的 [kicad StepUp](https://sourceforge.net/projects/kicadstepup/) 方法生成电路板的3D模型。
 
-### 使用方法（win7）
+### 在 windows 下使用方法
 1. 删除原来的环境变量 **KISYSMOD** **KISYS3DMOD**
 2. 修改 `C:\Users\用户名\AppData\Roaming\kicad\kicad_common` 文件中环境变量为库所在地址。例如：
  - KICAD_PTEMPLATES=C:\\PROJECTS\\apeng-kicad\\template
@@ -15,3 +15,13 @@ apeng's kicad library
  - prefix3d_1 = C:\PROJECTS\apeng-kicad\packages3d\ 
 4. 拷贝fp-lib-table文件到目录 `C:\Users\用户名\AppData\Roaming\kicad\` 或者建议采用创建链接mklink方式。
  
+### 在 ubuntu 下使用方法
+1. 修改 ~/.config/kicad/kicad_common 文件中环境变量为库所在地址。例如：
+ - KISYS3DMOD=~/apeng-kicad/packages3d/
+ - KISYSMOD=~/apeng-kicad/footprints/
+2. 链接 fp-lib-table 文件：
+ - ln -s ~/apeng-kicad/fp-lib-table ~/.config/kicad/fp-lib-table
+3. 链接 自定义模板
+ - mkdir ~/kicad
+ - ln -s ~/apeng-kicad/template ~/kicad/
+
