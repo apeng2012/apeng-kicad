@@ -17,10 +17,10 @@ apeng's kicad library
  
 ### 在 ubuntu 下使用方法
 1. 修改 ~/.config/kicad/kicad_common 文件中环境变量为库所在地址。例如：
- - KISYS3DMOD=~/apeng-kicad/packages3d/
- - KISYSMOD=~/apeng-kicad/footprints/
+ - KISYS3DMOD=/home/用户名/apeng-kicad/packages3d/
+ - KISYSMOD=/home/用户名/apeng-kicad/footprints
 2. 链接 fp-lib-table 文件：
- - ln -s ~/apeng-kicad/fp-lib-table ~/.config/kicad/fp-lib-table
+ - ln -s ~/apeng-kicad/fp-lib-table.for-ubuntu ~/.config/kicad/fp-lib-table
 3. 链接 自定义模板
  - mkdir ~/kicad
  - ln -s ~/apeng-kicad/template ~/kicad/
