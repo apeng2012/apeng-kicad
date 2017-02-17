@@ -24,4 +24,6 @@ apeng's kicad library
 3. 链接 自定义模板
  - mkdir ~/kicad
  - ln -s ~/apeng-kicad/template ~/kicad/
+4. 修改StepUp配置文件 `ksu-config.ini`：
+ - prefix3d_1 = /home/用户名/apeng-kicad/packages3d/ 
 
