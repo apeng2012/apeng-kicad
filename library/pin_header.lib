@@ -82,6 +82,7 @@ F1 "CONN_01X04" 100 0 50 V V C CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
+ 2EDG_4
  Pin_Header_Straight_1X04
  Pin_Header_Angled_1X04
  Socket_Strip_Straight_1X04
