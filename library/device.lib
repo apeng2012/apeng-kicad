@@ -182,6 +182,7 @@ F1 "F_Small" -120 -60 50 H V L CNN
 F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
+ F_1206
  CP*
  SM*
  C_1812
