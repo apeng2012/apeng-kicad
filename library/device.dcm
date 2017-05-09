@@ -28,4 +28,8 @@ $CMP R
 D Resistor
 $ENDCMP
 #
+$CMP USBLC6-2
+D ESD protection
+$ENDCMP
+#
 #End Doc Library
