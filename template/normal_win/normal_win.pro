@@ -39,5 +39,6 @@ LibName9=mcu
 LibName10=io_ic
 LibName11=pin_header
 LibName12=logic
+LibName13=analog
 [general]
 version=1
