@@ -14,6 +14,7 @@ $FPLIST
  Pin_Header_Angled_1X01
  Socket_Strip_Straight_1X01
  Socket_Strip_Angled_1X01
+ HOLE_v1
 $ENDFPLIST
 DRAW
 S -50 5 10 -5 0 1 0 N
