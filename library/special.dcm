@@ -1,3 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP PH8806
+D Calling Identity Delivery
+$ENDCMP
+#
+$CMP PH8811
+D telephone module
+$ENDCMP
+#
 #End Doc Library

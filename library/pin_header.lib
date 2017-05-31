@@ -14,6 +14,7 @@ $FPLIST
  Pin_Header_Angled_1X01
  Socket_Strip_Straight_1X01
  Socket_Strip_Angled_1X01
+ HOLE_v1
 $ENDFPLIST
 DRAW
 S -50 5 10 -5 0 1 0 N
@@ -38,6 +39,7 @@ $FPLIST
  Socket_Strip_Straight_1X02
  Socket_Strip_Angled_1X02
  Pin_Header_Wire_1X02
+ JWT_Vertical_A3963-RM3.96mm-2
 $ENDFPLIST
 DRAW
 S -50 -45 10 -55 0 1 0 N
@@ -143,6 +145,7 @@ $FPLIST
  Pin_Header_Angled_1X06
  Socket_Strip_Straight_1X06
  Socket_Strip_Angled_1X06
+ RJ11
 $ENDFPLIST
 DRAW
 S -50 -245 10 -255 0 1 0 N

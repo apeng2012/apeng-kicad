@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP RJ45_HR911105A
+D Single Port RJ45 Connector with Integrated Magnetics and LED
+$ENDCMP
+#
 $CMP TF_1
 D micro sd card
 $ENDCMP
