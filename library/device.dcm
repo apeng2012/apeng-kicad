@@ -24,6 +24,10 @@ $CMP MIC_MEMS_4P_A
 D knowles microphone
 $ENDCMP
 #
+$CMP MIC_MEMS_I2S
+D knowles I2S microphone
+$ENDCMP
+#
 $CMP MIC_MP34DT01
 D ST MEMS audio sensor omnidirectional digital microphone
 $ENDCMP
