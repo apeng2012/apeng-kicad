@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AT24C
+D I2C CMOS Serial EEPROM
+$ENDCMP
+#
 $CMP SST25VF
 D SPI Serial Flash
 $ENDCMP
