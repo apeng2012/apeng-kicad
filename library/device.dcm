@@ -24,6 +24,10 @@ $CMP MIC_MEMS_4P_A
 D knowles microphone
 $ENDCMP
 #
+$CMP MIC_MEMS_4P_B
+D ST differential analog MEMS mic
+$ENDCMP
+#
 $CMP MIC_MEMS_6P_A
 D knowles microphone
 $ENDCMP
