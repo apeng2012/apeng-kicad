@@ -1,0 +1,11 @@
+*.xls
+*.xml
+*.pdf
+*.net
+*.*bak
+*-cache.lib
+plot_files/*
+!plot_files/*.zip
+autosave*
+plot_files_pb/*
+!plot_files_pb/*.zip

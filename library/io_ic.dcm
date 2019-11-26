@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCA9306
+D DUAL BIDIRECTIONAL I2C BUS AND SMBus VOLTAGE-LEVEL TRANSLATOR
+$ENDCMP
+#
+$CMP W5500
+D Hardwired TCP/IP embedded Ethernet controller
+$ENDCMP
+#
+#End Doc Library
