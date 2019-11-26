@@ -633,6 +633,7 @@ F2 "" 0 0 50 H V C CNN
 F3 "" 0 0 50 H V C CNN
 $FPLIST
  Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp
+ 3362P
 $ENDFPLIST
 DRAW
 S -150 50 150 -50 0 1 0 N
